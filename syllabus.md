@@ -1,9 +1,7 @@
 # ICME Computing Refresher
 
 * Location: 
-* Time: Thursday, September 13, 2:30PM - 3:45PM
-
-        Friday, September 14, 2:30PM - 3:45PM
+* Time: September 13-14, 2:30PM - 3:45PM, Friday
 
 ----
 
