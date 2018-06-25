@@ -20,32 +20,32 @@ Finally, we will briefly show students useful software that is commonly used by 
 
 A list of topics is as follows:
 
-1. Introduction to Stanford Computing
+* Introduction to Stanford Computing
   * Stanford Wifi
   * Connecting to Stanford computing clusters
   * Accessing programs on the cluster
-2. Linux and Bash Scripting
+* Linux and Bash Scripting
   * Navigating the Linux environment
   * Shell scripting
   * SLURM job submission
-3. MATLAB
+* MATLAB
   * Basic syntax
   * Functions/function handles
   * Matrix types
-4. Jupyter Notebook
-  * Installing Jupyter notebooks
-  * Switching between languages
-  * Combining markdown and code
-5. Git
+* Git
   * Basic git commands
   * Creating git projects
   * Using and modifying existing git projects
-6. Latex
+* Latex
   * Basic syntax
   * Style
   * Tips and tricks
-7. Useful software
+* Useful software
   * Text editors
   * Julia
   * Overleaf
+  * Jupyter Notebook
+    * Installing Jupyter notebooks
+    * Switching between languages
+    * Combining markdown and code
 
