@@ -15,7 +15,37 @@
 This course is intended to introduce students to the computing tools available at Stanford.
 First, we will cover how to use connect to and used Stanford computing tools such as the Wifi, computing clusters, and software.
 Then, we will introduce/remind students how to use Linux and Bash scripting.
-Next, we will dicuss commonly used computing tools such as MATLAB, Jupter notebooks, and Latex.
+Next, we will dicuss commonly used computing tools such as MATLAB, Jupter notebooks, Git, and Latex.
 Finally, we will briefly show students useful software that is commonly used by ICME students such as Sublime, Julia, and others.
 
+A list of topics is as follows:
+
+1. Introduction to Stanford Computing
+  * Stanford Wifi
+  * Connecting to Stanford computing clusters
+  * Accessing programs on the cluster
+2. Linux and Bash Scripting
+  * Navigating the Linux environment
+  * Shell scripting
+  * SLURM job submission
+3. MATLAB
+  * Basic syntax
+  * Functions/function handles
+  * Matrix types
+4. Jupyter Notebook
+  * Installing Jupyter notebooks
+  * Switching between languages
+  * Combining markdown and code
+5. Git
+  * Basic git commands
+  * Creating git projects
+  * Using and modifying existing git projects
+6. Latex
+  * Basic syntax
+  * Style
+  * Tips and tricks
+7. Useful software
+  * Text editors
+  * Julia
+  * Overleaf
 
