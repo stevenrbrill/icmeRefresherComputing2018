@@ -28,10 +28,6 @@ A list of topics is as follows:
   * Navigating the Linux environment
   * Shell scripting
   * SLURM job submission
-* MATLAB
-  * Basic syntax
-  * Functions/function handles
-  * Matrix types
 * Git
   * Basic git commands
   * Creating git projects
@@ -40,6 +36,10 @@ A list of topics is as follows:
   * Basic syntax
   * Style
   * Tips and tricks
+* MATLAB
+  * Basic syntax
+  * Functions/function handles
+  * Matrix types
 * Useful software
   * Text editors
   * Julia
