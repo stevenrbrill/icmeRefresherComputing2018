@@ -1,7 +1,7 @@
 # Computing at Stanford
 In this lesson, we're going to talk about how to access the various computing resources at Stanford. Specifically we will talk about:
 1. Connecting to Wifi
-2. 2-Factor Authentication
+2. Two-Factor Authentication
 3. Stanford Computing Clusters
 4. Miscellaneous Resources
 
@@ -16,6 +16,16 @@ There are a few different networks on campus with different purposes:
 
 I recommend using Stanford or Stanford Secure, but some people use Stanford Visitor because there is no login or software involved. For now, try connecting to Stanford Visitor or Stanford and you can try connecting to Stanford Secure after class, since that requires some more work. This link will give you information about all of the networks: 
 https://uit.stanford.edu/service/wirelessnet
+
+## Two-Factor Authentication
+When you log onto most Stanford services, you will need to use two-factor authentication to log in. This website gives the information on how to set everything up: https://uit.stanford.edu/service/authentication/twostep
+But to summarize, you can put in your phone number to set up the following methods of authentication:
+1. Duo Mobile push notification
+2. Duo Mobile passcode
+3. Phone call
+4. SMS text message
+
+While all of these methods work, I strongly recommend getting the Duo Mobile app on your phone, as I find the push notifications the easiest and most consistent because they do not require typing in a code or phone service.
 
 ## AFS 
 https://afs.stanford.edu/
