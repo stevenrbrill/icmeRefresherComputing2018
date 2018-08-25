@@ -3,7 +3,8 @@ In this lesson, we're going to talk about how to access the various computing re
 1. Connecting to Wifi
 2. Two-Factor Authentication
 3. Stanford Computing Clusters
-4. Miscellaneous Resources
+4. Your website
+5. Miscellaneous Resources
 
 ## Connecting to Wifi 
 If you haven't done this already, the first thing you will probably want to do is connect to the Wifi at Stanford. 
@@ -36,8 +37,20 @@ For general file storing, I would use Box or Drive.
 Putting files in the WWW folder makes them accessible from your website. index.html will function as this. 
 stanford.edu/~[your suid]
 
-## Library off campus 
-http://library.stanford.edu/using/connecting-e-resources
+## Miscellaneous Resources
+* Stanford library catalogue: http://library.stanford.edu/
+* Accessing library resources off campus: http://library.stanford.edu/using/connecting-e-resources
+* Stanford Software Licensing: https://uit.stanford.edu/service/softwarelic
+* Stanford Box: https://uit.stanford.edu/service/box
+* Stanford Slack: https://uit.stanford.edu/service/slack
+* Stanford Google Drive: https://uit.stanford.edu/service/gsuite/drive
+* Stanford Email: http://webmail.stanford.edu
+* Stanford course evaluations: http://carta.stanford.edu
+* Stanford VPN: https://uit.stanford.edu/service/vpn
+* Stanford Mailing Lists: https://uit.stanford.edu/service/mailinglists/tools
+* Stanford email lookup: https://stanfordwho.stanford.edu/SWApp/
+* Stanford course information: https://explorecourses.stanford.edu/
+* School of Engineering printing: https://soeithelp.stanford.edu/hc/en-us/articles/226558888-Add-CanonMFD-Secured-Unsecured-Print-Queue-for-Windows
 
 ## Farmshare 
 https://srcc.stanford.edu/farmshare2 https://srcc.stanford.edu/farmshare2/connecting
