@@ -6,17 +6,16 @@ In this lesson, we're going to talk about how to access the various computing re
 4. Miscellaneous Resources
 
 ## Connecting to Wifi 
-https://uit.stanford.edu/service/wirelessnet
 If you haven't done this already, the first thing you will probably want to do is connect to the Wifi at Stanford. 
-There are a few different networks on campus:
+There are a few different networks on campus with different purposes:
 1. Stanford Visitor - Open to anyone, accept agreement to connect
 2. Stanford - General network, requires SUID login
 3. Stanford Secure - Secure network, requires installing Stanford security configuration
 4. Eduroam - For people visiting campus, you can use at other universities
 5. Stanford Residences - Use in residences
 
-I recommend using Stanford or Stanford Secure overall. For now, use Stanford or Stanford Visitor and setting up what you want later.
-
+I recommend using Stanford or Stanford Secure, but some people use Stanford Visitor because there is no login or software involved. For now, try connecting to Stanford Visitor or Stanford and you can try connecting to Stanford Secure after class, since that requires some more work. This link will give you information about all of the networks: 
+https://uit.stanford.edu/service/wirelessnet
 
 ## AFS 
 https://afs.stanford.edu/
