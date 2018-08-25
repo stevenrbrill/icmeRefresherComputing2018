@@ -19,7 +19,8 @@ https://uit.stanford.edu/service/wirelessnet
 
 ## Two-Factor Authentication
 When you log onto most Stanford services, you will need to use two-factor authentication to log in. This website gives the information on how to set everything up: https://uit.stanford.edu/service/authentication/twostep
-But to summarize, you can put in your phone number to set up the following methods of authentication:
+
+To summarize, you can put in your phone number to set up the following methods of authentication:
 1. Duo Mobile push notification
 2. Duo Mobile passcode
 3. Phone call
