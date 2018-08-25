@@ -9,11 +9,11 @@ In this lesson, we're going to talk about how to access the various computing re
 ## Connecting to Wifi 
 If you haven't done this already, the first thing you will probably want to do is connect to the Wifi at Stanford. 
 There are a few different networks on campus with different purposes:
-1. Stanford Visitor - Open to anyone, accept agreement to connect
-2. Stanford - General network, requires SUID login
-3. Stanford Secure - Secure network, requires installing Stanford security configuration
-4. Eduroam - For people visiting campus, you can use at other universities
-5. Stanford Residences - Use in residences
+* Stanford Visitor - Open to anyone, accept agreement to connect
+* Stanford - General network, requires SUID login
+* Stanford Secure - Secure network, requires installing Stanford security configuration
+* Eduroam - For people visiting campus, you can use at other universities
+* Stanford Residences - Use in residences
 
 I recommend using Stanford or Stanford Secure, but some people use Stanford Visitor because there is no login or software involved. For now, try connecting to Stanford Visitor or Stanford and you can try connecting to Stanford Secure after class, since that requires some more work. This link will give you information about all of the networks: 
 https://uit.stanford.edu/service/wirelessnet
@@ -32,28 +32,28 @@ While all of these methods work, I strongly recommend getting the Duo Mobile app
 ## Cluster Computing
 In this section we will introduce the different computing clusters at Stanford, how to connect to them, and more depth on one in particular, Farmshare. This section will use some amount of Unix, which will be covered in greater detail in a later section.
 The information about most of the clusters can be found at https://srcc.stanford.edu/services-systems-overview but an overview of the most commonly used clusters:
-1. Farmshare
+* Farmshare
   * https://web.stanford.edu/group/farmshare/cgi-bin/wiki/index.php/FarmShare_tutorial
   * Open to all students, faculty, and staff
   * Used for coursework, research, and accessing university software
   * 14 login nodes, 5 96 GB compute nodes, 2 787 GB compute nodes, 10 128 GB compute nodes with NVIDIA Tesla K40
   * Access to AFS
-2. Sherlock
+* Sherlock
   * https://www.sherlock.stanford.edu/docs/
   * Main research cluster accessible by all faculty
   * Faculty can obtain use allocations on both shared and private resources
   * 1325 compute nodes, 24096 cores, 1195 GPUs
-3. ICME GPU Cluster
+* ICME GPU Cluster
   * https://icme.stanford.edu/resources/hpc-compute-resources/icme-cluster
   * Accessible to anyone at Stanford by request
   * Usable for researtch requiring GPUs
   * 288 CPU core, 10 NVIDIA Tesla K80s, 1.2 TB
-4. HPCC Clusters
+* HPCC Clusters
   * https://hpcc.stanford.edu/
   * School of Engineering access by faculty request
   * Used for research and specific courses
   * CPU, GPU, and KNL Clusters
-5. Other Clusters
+* Other Clusters
   * XStream GPU Cluster
   * Stanford Genomics Clusters
   * Population Health Sciences
