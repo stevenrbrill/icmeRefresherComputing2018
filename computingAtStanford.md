@@ -30,10 +30,10 @@ To summarize, you can put in your phone number to set up the following methods o
 While all of these methods work, I strongly recommend getting the Duo Mobile app on your phone, as I find the push notifications the easiest and most consistent because they do not require typing in a code or phone service.
 
 ## Cluster Computing
-In this section we will introduce the different computing clusters at Stanford, how to connect to them, and more depth on one in particular, Farmshare. This section will use some amount of Unix, which will be covered in greater detail in a later section.
+In this section we will introduce the different computing clusters at Stanford and more depth on Farmshare in particular. This section will use some amount of Unix, which will be covered in greater detail in a later section.
 The information about most of the clusters can be found at https://srcc.stanford.edu/services-systems-overview but an overview of the most commonly used clusters:
-* Farmshare
-  * https://web.stanford.edu/group/farmshare/cgi-bin/wiki/index.php/FarmShare_tutorial
+* Farmshare 2
+  * https://srcc.stanford.edu/farmshare2
   * Open to all students, faculty, and staff
   * Used for coursework, research, and accessing university software
   * 14 login nodes, 5 96 GB compute nodes, 2 787 GB compute nodes, 10 128 GB compute nodes with NVIDIA Tesla K40
@@ -58,14 +58,41 @@ The information about most of the clusters can be found at https://srcc.stanford
   * Stanford Genomics Clusters
   * Population Health Sciences
   
+### Farmshare  
+As I said before, Farmshare is a cluster open to everyone at Stanford that can be used for pretty much anything from coursework to research. Additionally, it can be used to access Stanford software. Withing Farmshare, there are three server types:
+* *rice* - Login nodes for running smaller programs, accessing files, and submitting jobs.
+* *wheat* - Compute nodes with more CPU power and memory.
+* *oats* - GPU compute nodes.
 
-## AFS 
+### Connecting to Farmshare via SSH
+
+### Farmshare software
+Farmshare is how the university distributes access to a variety of software. The list of software can be found at https://srcc.stanford.edu/farmshare2/software or by using the `module avail` command in the terminal. Some of the highlights include:
+* Anaconda
+* ANSYS
+* cmake
+* CUDA
+* emacs, vim, nano
+* GNU and Intel Compilers
+* Julia
+* Mathematica
+* MATLAB
+* OpenFOAM
+* R
+* Stata
+* Torch
+
+To access any of these programs, use `module load [name of module]` to load the module, and then use the name of the command to run the program. Access to many of these programs is also available on the computers in the libraries around campus, like the Turman Engineering Library in Huang.
+
+### AFS
 https://afs.stanford.edu/
 AFS stands for Andrew File System. 
 It is an internal file system that you can use to store files that is accessible from Farmshare. 
 For general file storing, I would use Box or Drive.
 Putting files in the WWW folder makes them accessible from your website. index.html will function as this. 
 stanford.edu/~[your suid]
+
+### Submitting jobs on Farmshare via SLURM
 
 ## Miscellaneous Resources
 * Stanford library catalogue: http://library.stanford.edu/
@@ -82,5 +109,3 @@ stanford.edu/~[your suid]
 * Stanford course information: https://explorecourses.stanford.edu/
 * School of Engineering printing: https://soeithelp.stanford.edu/hc/en-us/articles/226558888-Add-CanonMFD-Secured-Unsecured-Print-Queue-for-Windows
 
-## Farmshare 
-https://srcc.stanford.edu/farmshare2 https://srcc.stanford.edu/farmshare2/connecting
