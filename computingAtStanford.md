@@ -12,11 +12,16 @@ There are a few different networks on campus:
 I recommend using Stanford or Stanford Secure overall. For now, use Stanford or Stanford Visitor and setting up what you want later.
 
 
-*AFS 
+* AFS 
 https://afs.stanford.edu/
+AFS stands for Andrew File System. 
+It is an internal file system that you can use to store files that is accessible from Farmshare. 
+For general file storing, I would use Box or Drive.
+Putting files in the WWW folder makes them accessible from your website. index.html will function as this. 
+stanford.edu/~[your suid]
 
-*Library off campus 
+* Library off campus 
 http://library.stanford.edu/using/connecting-e-resources
 
-*Farmshare 
+* Farmshare 
 https://srcc.stanford.edu/farmshare2 https://srcc.stanford.edu/farmshare2/connecting
