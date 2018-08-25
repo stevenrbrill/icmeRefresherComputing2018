@@ -29,6 +29,36 @@ To summarize, you can put in your phone number to set up the following methods o
 
 While all of these methods work, I strongly recommend getting the Duo Mobile app on your phone, as I find the push notifications the easiest and most consistent because they do not require typing in a code or phone service.
 
+## Cluster Computing
+In this section we will introduce the different computing clusters at Stanford, how to connect to them, and more depth on one in particular, Farmshare. This section will use some amount of Unix, which will be covered in greater detail in a later section.
+The information about most of the clusters can be found at https://srcc.stanford.edu/services-systems-overview but an overview of the most commonly used clusters:
+1. Farmshare
+  * https://web.stanford.edu/group/farmshare/cgi-bin/wiki/index.php/FarmShare_tutorial
+  * Open to all students, faculty, and staff
+  * Used for coursework, research, and accessing university software
+  * 14 login nodes, 5 96 GB compute nodes, 2 787 GB compute nodes, 10 128 GB compute nodes with NVIDIA Tesla K40
+  * Access to AFS
+2. Sherlock
+  * https://www.sherlock.stanford.edu/docs/
+  * Main research cluster accessible by all faculty
+  * Faculty can obtain use allocations on both shared and private resources
+  * 1325 compute nodes, 24096 cores, 1195 GPUs
+3. ICME GPU Cluster
+  * https://icme.stanford.edu/resources/hpc-compute-resources/icme-cluster
+  * Accessible to anyone at Stanford by request
+  * Usable for researtch requiring GPUs
+  * 288 CPU core, 10 NVIDIA Tesla K80s, 1.2 TB
+4. HPCC Clusters
+  * https://hpcc.stanford.edu/
+  * School of Engineering access by faculty request
+  * Used for research and specific courses
+  * CPU, GPU, and KNL Clusters
+5. Other Clusters
+  * XStream GPU Cluster
+  * Stanford Genomics Clusters
+  * Population Health Sciences
+  
+
 ## AFS 
 https://afs.stanford.edu/
 AFS stands for Andrew File System. 
