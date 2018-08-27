@@ -111,10 +111,6 @@ To access any of these programs, use `module load [name of module]` to load the 
 
 ### AFS
 AFS stands for Andrew File System. It is an internal file system at Stanford that you can use to store files that is accessible from Farmshare and in the libraries on campus. For general file storing, I would use Box or Drive, but this is one way to pass files to and from Farmshare without using any outside software. It is accessible at https://afs.stanford.edu/.  
- 
-
-
-### Submitting jobs on Farmshare via SLURM
 
 ## Your Website
 Stanford gives everyone a domain for your own website. It is accessible at stanford.edu/~[your suid] . This website can be updated by putting html files into the WWW directory in you AFS. index.hmtl will serve as your homepage.
