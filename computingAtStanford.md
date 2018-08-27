@@ -75,6 +75,21 @@ As I said before, Farmshare is a cluster open to everyone at Stanford that can b
 * *oats* - GPU compute nodes.
 
 ### Connecting to Farmshare via SSH
+To connect to any of Stanford's clusters we will use a **secure shell** (SSH). This will connect you to a Linux terminal on the cluster from which you can work. If you wish to use interactive programs (such as MATLAB), then you will need to enable X11 forwarding when you SSH. This process is slightly different for each operating system:
+* Linux
+  * Open a terminal
+  * `ssh sunetid@rice.stanford.edu` - To SSH onto Farmshare
+  * `ssh -X sunetid@rice.stanford.edu` - To SSH onto Farmshare with X11 forwarding
+* Mac
+  * Open a terminal
+  * `ssh sunetid@rice.stanford.edu` - To SSH onto Farmshare
+  * Install XQuartz and use `ssh -X sunetid@rice.stanford.edu` - To SSH onto Farmshare with X11 forwarding
+* Windows
+  * Install PuTTY (or MobaXterm or SecureCRT)
+  * Follow instructions in software to connect (It will require inputting a username and the name of the server)
+  * Install XMing or MobaXterm and connect with the X11 option in the Windows X11 Client
+
+For next class, you will be asked to connect to Farmshare from your own computer with X11 forwarding, so we can follow some Linux tutorials.
 
 ### Farmshare software
 Farmshare is how the university distributes access to a variety of software. The list of software can be found at https://srcc.stanford.edu/farmshare2/software or by using the `module avail` command in the terminal. Some of the highlights include:
