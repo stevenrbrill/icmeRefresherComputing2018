@@ -110,14 +110,14 @@ Farmshare is how the university distributes access to a variety of software. The
 To access any of these programs, use `module load [name of module]` to load the module, and then use the name of the command to run the program. Access to many of these programs is also available on the computers in the libraries around campus, like the Turman Engineering Library in Huang.
 
 ### AFS
-https://afs.stanford.edu/
-AFS stands for Andrew File System. 
-It is an internal file system that you can use to store files that is accessible from Farmshare. 
-For general file storing, I would use Box or Drive.
-Putting files in the WWW folder makes them accessible from your website. index.html will function as this. 
-stanford.edu/~[your suid]
+AFS stands for Andrew File System. It is an internal file system at Stanford that you can use to store files that is accessible from Farmshare and in the libraries on campus. For general file storing, I would use Box or Drive, but this is one way to pass files to and from Farmshare without using any outside software. It is accessible at https://afs.stanford.edu/.  
+ 
+
 
 ### Submitting jobs on Farmshare via SLURM
+
+## Your Website
+Stanford gives everyone a domain for your own website. It is accessible at stanford.edu/~[your suid] . This website can be updated by putting html files into the WWW directory in you AFS. index.hmtl will serve as your homepage.
 
 ## Miscellaneous Resources
 * Stanford library catalogue: http://library.stanford.edu/
