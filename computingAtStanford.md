@@ -88,6 +88,7 @@ To connect to any of Stanford's clusters we will use a **secure shell** (SSH). T
   * Install PuTTY (or MobaXterm or SecureCRT)
   * Follow instructions in software to connect (It will require inputting a username and the name of the server)
   * Install XMing or MobaXterm and connect with the X11 option in the Windows X11 Client
+  * Alternatively, Windows users can also uses the Linux subsystem for most Linux things. https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
 
 For next class, you will be asked to connect to Farmshare from your own computer with X11 forwarding, so we can follow some Linux tutorials.
 
@@ -129,4 +130,3 @@ Stanford gives everyone a domain for your own website. It is accessible at stanf
 * Stanford email lookup: https://stanfordwho.stanford.edu/SWApp/
 * Stanford course information: https://explorecourses.stanford.edu/
 * School of Engineering printing: https://soeithelp.stanford.edu/hc/en-us/articles/226558888-Add-CanonMFD-Secured-Unsecured-Print-Queue-for-Windows
-
