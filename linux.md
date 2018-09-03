@@ -48,6 +48,10 @@ Now we will begin to go over the basic Linux commands and how to use them
 * `<command> | <command>` - Pipe the output to another program
 * `grep <string> <file>` - Search for string in file, `-i` ignore case, `-r` Recursive, search in subdirectories
 * `top` - Shows processes that are running
+* `locate <file>` - Search for the file
+* `tar <arguments> <file>` - Unzip a tar file. The arguments depend on the file type
+* `chmod <arguments> <file>` - Change the permission of read, write, and execute access on a file
+* `clear` - Clears the terminal
 
 Relative path vs absolute path
 bashrc / alias
