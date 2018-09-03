@@ -18,7 +18,7 @@ Now we will begin to go over the basic Linux commands and how to use them
 * `echo <arg>` - Print arguments to display
 * `ls <dir>` - List contents in directory, `-l` list format, `-t` time, newest first, `-a` all entries
 * `pwd` - Print the path to the current directory
-* `cd <dir>` - Change to the directory
+* `cd <dir>` - Change to the directory, if no directory is listed, it will go to home directory
 * `mkdir <dir>` - Make directory
 * `rmdir <dir>` - Remove directory
 * `.` - Current directory
@@ -49,10 +49,16 @@ Now we will begin to go over the basic Linux commands and how to use them
 * `grep <string> <file>` - Search for string in file, `-i` ignore case, `-r` Recursive, search in subdirectories
 * `top` - Shows processes that are running
 * `locate <file>` - Search for the file
-* `tar <arguments> <file>` - Unzip a tar file. The arguments depend on the file type
+* `tar -czvf <tar file> <files>` - Zip a tar file
+* `tar -xzvf <tar file>` - Unzip a tar file
 * `chmod <arguments> <file>` - Change the permission of read, write, and execute access on a file
 * `clear` - Clears the terminal
 
-Relative path vs absolute path
-bashrc / alias
-text editors
+## Paths in Linux
+In Linux, when you are doing a command with a file, you must give a path to the file. The can be done using an **absolute path** or a **relative path**. As the names imply, absolute paths are paths that always get to the correct location, while relative paths are paths to the location from wherever you currently are. Whenever you use `pwd`p that gives the absolute path to the current directory. Absolute paths start with a `/`. Relative paths, start in your current location. If the first part of the path is `.` then it is a relative path. By default, if you start typing a path from your current directory, it will be a relative path. For most basic command line uses, these paths are equivalent. However, for more advanced uses, such as installing software, absolute paths must be used.
+
+## Bashrc
+
+## Text Editors
+
+
