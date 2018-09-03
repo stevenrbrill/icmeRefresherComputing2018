@@ -31,8 +31,8 @@ While git is a method of version control and backing up files, they still need t
 * `git rm <file>` - Stop tracking the file
 * `git commit <file>` - Save changes to local repository, `-a` will commit all changes, `-m "<message>"` will add the commit message
 * `git push` - Send changes to the master branch of the remote repository
-* `git status` - List the files you've changed
 * `git pull` - Fetch and merge remote changes into your local repository
+* `git status` - List the files you've changed
 * `git log` - Show change history
 * `gitk` - Open a GUI that functions as a log and a status
 * `git diff` - Show difference between local repository and remote
@@ -42,8 +42,8 @@ While git is a method of version control and backing up files, they still need t
 * `git checkout master` - Switch to master branch
 * `git merge <branch name>` - Merges the branch with the active branch
 * `git mergetool` - Tool to help resolve merge conflicts
-* `.gitignore` - File that tells git to ignore certain files
 * `git checkout <commit number>` - Revert code back to the state it was at that commit number, this is a temorary change
+* `.gitignore` - File that tells git to ignore certain files
 
 ## Basic Git Workflow
 The basic Git workflow is as follows:
@@ -52,22 +52,25 @@ The basic Git workflow is as follows:
     * `git init` - Create a new local repository
 2. Make new files and change old files
 3. Add new files to staging
-  * `git add <file>` - Add file to staging to begin tracking
+    * `git add <file>` - Add file to staging to begin tracking
 3. Commit changes to files
-  * `git commit <file>` - Save changes to local repository, `-a` will commit all changes, `-m "<message>"` will add the commit message
+    * `git commit <file>` - Save changes to local repository, `-a` will commit all changes, `-m "<message>"` will add the commit message
 4. Push changes to remote repository
-  * `git push` - Send changes to the master branch of the remote repository
+    * `git push` - Send changes to the master branch of the remote repository
 5. Repeat
+
+When other users make changes to the repository, you will need to use `git pull` to get those changes in your local repository
   
 ## Checking Changes
 1. Checking staged changes
-  * `git status` - List the files you've changed
+    * `git status` - List the files you've changed
 2. Checking differences between repositorie
-  * `git diff` - Show difference between local repository and remote
+    * `git diff` - Show difference between local repository and remote
 3. Checking change history
-  * `git log` - Show change history
+    * `git log` - Show change history
 4. A tool for all of this
-  * `gitk` - Open a GUI that functions as a log and a status
+    * `gitk` - Open a GUI that functions as a log and a status
+5. You can also edit the `.gitignore` file to make git ignore certain files or types of files that you don't want to track
   
 ## Branches, forks, and clones
 One of the things I find most confusing about git is the different kinds of ways you can change a repository. 
@@ -76,17 +79,17 @@ A **clone** is a local copy of a repository. Here you can change the code locall
 
 A **branch** is a temporary version of the code that is usually used to implement a specific feature, which is later implemented into the master or main branch. This is good if you are working on multiple features at once and you don't want them to interact with each other during development. This also allows you to accidentally break the code with your new features and still have a working version available without having to revert back. Once a feature is completed, it can merged back into the master branch, from which it can be pushed to the remote repository. The general workflow for branches is:
 1. Create a new branch
-  * `git branch <branch name>` - Create a new branch
+    * `git branch <branch name>` - Create a new branch
 2. Make changes and commit those changes, like in the basic workflow
 3. Move between branches to make changes where need
-  * `git checkout <branch name>` - Switch to branch
-  * `git checkout master` - Switch to master branch
-  * `git branch` - Print available branches
+    * `git checkout <branch name>` - Switch to branch
+    * `git checkout master` - Switch to master branch
+    * `git branch` - Print available branches
 4. Merge changes to master branch
-  * `git merge <branch name>` - Merges the branch with the active branch
+    * `git merge <branch name>` - Merges the branch with the active branch
 5. Resolve merge conflicts
-  * Git does a resonable job of combining different branches, but there are often areas where it can't figure out how to merge the changes. In these places it leaves sections of `>>>>>>>>>>>>>>>>>>>>>` to indicate it doesn't know what to do. You can resolve these issues using any text editor or using the mergetool
-  * `git mergetool` - Tool to help resolve merge conflicts
+    * Git does a resonable job of combining different branches, but there are often areas where it can't figure out how to merge the changes. In these places it leaves sections of `>>>>>>>>>>>>>>>>>>>>>` to indicate it doesn't know what to do. You can resolve these issues using any text editor or using the mergetool
+    * `git mergetool` - Tool to help resolve merge conflicts
 6. Commit the merged changes and merge again
 7. Push changes to remote repository if desired
 
