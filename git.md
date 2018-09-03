@@ -48,8 +48,8 @@ While git is a method of version control and backing up files, they still need t
 ## Basic Git Workflow
 The basic Git workflow is as follows:
 1. Create a repository by cloning from GitHub or intializing
-  * `git clone <url>` - Create a copy of a remote repository on your machine
-  * `git init` - Create a new local repository
+    * `git clone <url>` - Create a copy of a remote repository on your machine
+    * `git init` - Create a new local repository
 2. Make new files and change old files
 3. Add new files to staging
   * `git add <file>` - Add file to staging to begin tracking
