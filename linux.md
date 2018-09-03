@@ -71,5 +71,15 @@ alias ls='ls --color=auto'
 Which make the prompts appear everytime I remove a file. This makes it so I can't accidentally delete files, since I have accidentally deleted entire projects in the past.
 
 ## Text Editors
+When working in the terminal, it is often easier/necessary to use a terminal based text editor. The simplest of these is `nano` which lists all of the commands at the bottom on the screen. While `nano` is useful when you're getting started or if you use the terminal very sparingly, I strongly recommend you learn how to at least do basic commands in one of the more advanced text editors: `vim` or `emacs`. Which of these text editors you learn to use is largely a choice of personal preference and is in most cases determined by whatever you learn first. They both have a large number of special key combinations that can allow you to move through and edit documents very quickly. However, one must learn all of the relevant commands and be able to deal with unexpected things happening when errant keys are pressed, which can be intimidating to new users. In addition to the powerful built in commands, both editors have ways to modify and create your own commands. In fact, `emacs` is actually a turing complete language. In terms of choosing between the two, I think `vim` is less friendly to the new user, because you can't even type text when you open it. Also, I have heard the programmability and using packages for `emacs` has a lot benefits. However, I personally use `vim` and know more people that use `vim`. As opposed to going into details on the specifics of each of these editors, I am going to leave some links to the basic commands in each editor and you can experiment with them and ask questions later.
 
+In addition to these command line text editors, there are a number of good GUI based editors that I would recommend. Sublime Text, Notepad++, and Atom are the three that I personally recommend. They are all similar and have various packages for specific languages and applications, allow for project files to be viewed together, and some can even be used like and IDE.
+
+* Vim basics - https://www.howtoforge.com/vim-basics
+* Full Vim cheatsheet - http://tnerual.eriogerg.free.fr/vimqrc.pdf
+* Emacs basics - http://mally.stanford.edu/~sr/computing/emacs.html
+* Full Emacs cheatsheet - https://www.ast.cam.ac.uk/~vasily/idl/emacs_commands_list.html
+* Atom - https://atom.io/
+* Sublime Text - https://www.sublimetext.com/
+* Notepad++ - https://notepad-plus-plus.org/
 
