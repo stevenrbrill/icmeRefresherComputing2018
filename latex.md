@@ -93,9 +93,20 @@ Here are some of them that I often use:
 * `\in` or `\forall` or `\exists` - logical math symbols
 * `\infty` - Infinity
 * `\hat{x}` or `\dot{x}` or `\tilde{x}` for different formats on variables
+
+Here is a tool to find the LaTeX command of a symbol you draw: http://detexify.kirelabs.org/classify.html
  
- 
-## Figures and Tables
+## Figures
+As you would expect, you can include figures. I think the best way to explain this is with an example:
+```latex
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.25\textwidth]{file.png}
+    \caption{Put caption here}
+    \label{fig:myFig}
+\end{figure}
+```
+First, you must begin and end a figure with `\begin{figure}`. The `[]` section after that is used for setting the location. LaTeX generally tries to put the figure wherever it finds a nice spot to fit it. `[H]` puts it exactly where it is specified, but you can also set it to the top of a page, bottom of a page, in its own page, etc. `\centering` centers the figure. `\includegraphics{file.png}` is where the figure to be included in linked. The square brackets before that is where you can set the size of the figure to be included. `\caption{...}` put that text as a caption below the figure. `\label{fig:..}` works just like the equation above. You can use `\ref{fig:..}` to reference the figure and the figure number will automatically changed for you. The specifications of `fig:` and `eqn:` are not necessary if the label, but I find it makes it a lot clearer what you are referencing.
 
 ## Page Formatting
 Although this depends on the document type, you create sections in your pdf using the following commands, which do roughly what you would expect them to:
