@@ -68,6 +68,32 @@ You can make lists with `itemize` and numbered lists with `enumerate`
 ```
 
 ## Math
+To type math inline, use `$` to begin and end the math. For example:
+```latex
+Here is a sentence about the equation $Ax=b$ which is pretty important in all of math.
+```
+If you want to have equations in their own line, use the `align` command
+```latex
+\begin{align} % using {align*} wll remove numbering
+   Ax &= b \\
+   x_1 + x_2 &< 10 \label{eqn:mylabelname}
+\end{align}
+```
+To start a new line, use `\\`. `&` aligns the `&`s on all lines. `\label{...}` creates a label attached to the equation, which allows you to reference the equation using `\ref{...}` or `\eqref{..}` in the text. The equation numbering and referencing are very convinient because they will automatically update when new equations are added, so you don't need to manually organize them. 
+
+You can type pretty much any math symbol in LaTeX. A lot of them are pretty obvious, like `\psi` or a similar command works for Greek letter, `_` is subscript, and `^` is super script. There is a big list of them at http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html 
+Here are some of them that I often use:
+* `\psi` - Greek letters
+* `\left( stuff \right)` - Parantheses that auto size based on what is inside (also works with other kinds of brackets)
+* `\frac{numerator}{denominator}` - Fractions
+* `\int` - integral
+* `\partial` - partial derivative
+* `\sum` or `\prod` - sum or product
+* `\leq` or `\geq` - less than or equal or greater than or equal
+* `\in` or `\forall` or `\exists` - logical math symbols
+* `\infty` - Infinity
+* `\hat{x}` or `\dot{x}` or `\tilde{x}` for different formats on variables
+ 
  
 ## Figures and Tables
 
