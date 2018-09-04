@@ -156,5 +156,15 @@ Golub, G. H., \&  Van Loan, C. F. (2012). \textit{Matrix Computations} (Vol..). 
 Then when you wish to cite this reference, use `\cite{golub}`. As you can see, you have to format each citation yourself, which can be a pain. However, it also gives you direct control over how the citation looks, instead of through a formatting file, which I often find easier. 
 
 ## Macros
+LaTeX macros are commands you define yourself. They can be very useful for improving productivity and readability in your doucments, because they save you from typing long commands over and over again. The syntax is:
+```latex
+\newcommand{name}[num]{definition}
+```
+An example of a macro I use is:
+```latex
+\newcommand{\pder}[2]{\frac{\partial {#1}}{\partial {#2}}}
+```
+The command creates a partial derivative when you type `\pder{u}{x}`. In the command, the first argument is the name of your command. The argument in the square brackets is the number of input arguments it takes (which are inputted in sets of curly braces.) The third argument is the definition of the function where `#1` and `#2` define where the input arguements go.
 
-## Links
+## Conclusions
+In conclusion, LaTeX is very useful for typing equations and writing papers. There are many great tools and resources out there to help you write LaTeX more efficiently and effectively. However, at the end of the day, it is basically a programming language, so you will likely end up Googling a lot of your questions and you will generally be able resolve all of them with Google's help.
