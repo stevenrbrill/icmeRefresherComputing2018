@@ -34,7 +34,6 @@ A list of topics is as follows:
   * Using and modifying existing git projects
 * Latex
   * Basic syntax
-  * Style
   * Tips and tricks
 * MATLAB
   * Basic syntax
@@ -45,7 +44,4 @@ A list of topics is as follows:
   * Julia
   * Overleaf
   * Jupyter Notebook
-    * Installing Jupyter notebooks
-    * Switching between languages
-    * Combining markdown and code
 
