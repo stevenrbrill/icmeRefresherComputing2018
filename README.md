@@ -5,6 +5,7 @@ Welcome to the ICME Computing Refresher.  This git repository will host material
 [Syllabus](syllabus.md)
 
 The areas we will cover are:
+
 [Computing at Stanford](computingAtStanford.md)
 
 [Linux](linux.md)
