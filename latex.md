@@ -74,12 +74,12 @@ You can make lists with `itemize` and numbered lists with `enumerate`
 ## Page Formatting
 Although this depends on the document type, you create sections in your pdf using the following commands, which do roughly what you would expect them to:
 ```latex
-\begin{chapter}
-\begin{section}
-\begin{subsection}
-\begin{subsubsection}
-\begin{paragraph}
-\begin{subparagraph}
+\chapter{Chapter Name}
+\section{Section Name}
+\subsection{Subsection Name}
+\subsubsection{Subsubsection Name}
+\paragraph
+\subparagraph
 ```
 
 ## Packages
