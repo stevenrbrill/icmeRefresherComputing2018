@@ -42,6 +42,9 @@ end
 * `x = A\b` - Solve matrix system
 * `zeros(n,m)` - Creates an n by m matrix of zeros
 * `ones(n,m)` - Creates an n by m matrix of ones
+* `det(A)` - Determinant
+* `eig(a)` - Eigenvalue decomposition
+* `svd(a)` - Singular value decomposition
 * `eye(n)` - Creates an n by n identity matrix
 * `linspace(a,b,n)` - Creates a row vector of n linear values between a and b
 * There are also specific matrix formats to use for sparse/structured matrix computations
@@ -72,5 +75,36 @@ end
 * Then you end it with `end`
 
 ## Plotting
+```matlab
+x = linspace(0,10,1000);
+y = x.^2 + sin(2*pi*x);
+figure
+plot(x,y,'b*')
+hold on
+z = x.^3;
+plot(x,z,'r--')
+legend('y','z')
+xlabel('x')
+ylabel('Functions')
+title(`Example Figure`)
+```
+* First, we create arrays of data to plot
+* `figure` creates a new figure to plot on
+* The first two arguments in `plot` are the data to plot
+* The third argument in `plot` is the type of markers for this data. Other options can also be selected here.
+* You can also create different plot types with `loglog()`, `semilogx`, `semilogy`
+* `hold on` makes it so that all of statements will plot on the same figure until a new figure is created
+* `legend`, `xlabel`, `ylabel`, and `title` create the labels, legends, and titles
+* `help plot` is very useful for remembering all of the different plotting options
 
 ## Useful tools and packages
+* Symbolic math toolbox
+* Optimization toolbox 
+* `writeVideo()` - Creates videos from plots
+* `keyboard` - Stops running and enters debug mode at this location
+* `polyval()` - Evaluates a polynomial defined by a vector
+* `fft()` - Fast fourier transform
+* `trapz()` - Numerical integration with trapezoidal rule
+* `ode45()` - 4th order ODE solver
+* Probability distributions
+* Tons of other useful math functions created by users and freely available on the MathWorks website
