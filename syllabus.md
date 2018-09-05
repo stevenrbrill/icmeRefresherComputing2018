@@ -37,11 +37,13 @@ A list of topics is as follows:
   * Tips and tricks
 * MATLAB
   * Basic syntax
+  * Matrices
   * Functions/function handles
-  * Matrix types
+  * Plotting
 * Useful software
   * Text editors
   * Julia
   * Overleaf
   * Jupyter Notebook
+  * More
 
