@@ -14,6 +14,8 @@ The areas we will cover are:
 
 [LaTeX](latex.md)
 
+[MATLAB](matlab.md)
+
 [Miscellaneous](miscellaneous.md)
 
 ### Overview
