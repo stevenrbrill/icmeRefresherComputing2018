@@ -98,3 +98,30 @@ In addition to these command line text editors, there are a number of good GUI b
 * Sublime Text - https://www.sublimetext.com/
 * Notepad++ - https://notepad-plus-plus.org/
 
+## Slurm
+Slurm is a job scheduler that is implemented in Farmshare and many of the other clusters on campus. This judiciously allocates computing resources to users. There are a few ways to use it. If you just want to connect to a private computer so you can run programs with computing with other users, simply use the following command to request that:
+```
+srun --pty --qos=interactive $SHELL -l
+```
+When you have an interactive node, once you close the session, you will lose the node and your work will stop.
+
+If you want to run a code that will take a long time that you don't want to leave your computer on for, then you will want to submit a batch job. To do this, you will need to write a submit script. The full options for Slurm script can be found at https://slurm.schedmd.com/pdfs/summary.pdf but the basic format is something like
+```
+#!/bin/bash
+
+#SBATCH -J test               # Job name
+#SBATCH -o job.%j.out         # Name of stdout output file (%j expands to jobId)
+#SBATCH -N 1                  # Total number of nodes requested
+#SBATCH -n 24                 # Total number of mpi tasks requested
+#SBATCH -t 01:30:00           # Run time (hh:mm:ss) 
+
+module load <module>
+
+<command to run your code>
+
+```
+This file will be called `filename.slurm`. You can specify a job name, where to save the output, number of nodes, time on the computer, what type of nodes, and many other options. Once these are all specified, put the commands that you want to run below. This job is submitted to the job queue with the command
+```
+sbatch filename.slurm
+```
+Once your job is submitted, you can use `squeue` to check if it is runnning or still waiting in the queue. Once it is finished running all of your commands or you reach the time limit that you selected, the script will stop running and you will have your output. There are a lot more options about Slurm scripts that I haven't covered here. If you intend to use them regularly, I highly recommend you talk to the administrators of whatever cluster you are using, as they will have plenty of tips and examples for the specific cluster.
