@@ -26,7 +26,6 @@ A list of topics is as follows:
   * Accessing programs on the cluster
 * Linux and Bash Scripting
   * Navigating the Linux environment
-  * Shell scripting
   * SLURM job submission
 * Git
   * Basic git commands
