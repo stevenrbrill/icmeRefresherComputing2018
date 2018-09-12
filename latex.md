@@ -99,9 +99,9 @@ Here is a tool to find the LaTeX command of a symbol you draw: http://detexify.k
 ## Figures
 As you would expect, you can include figures. I think the best way to explain this is with an example:
 ```latex
-\begin{figure}[H]
+\begin{figure}[h]
     \centering
-    \includegraphics[width=0.25\textwidth]{file.png}
+    \includegraphics[width=6cm]{file.png}
     \caption{Put caption here}
     \label{fig:myFig}
 \end{figure}
@@ -148,8 +148,8 @@ This has the advantage that you can set all the styling in the `.bst` file and i
 
 The other method is thebibliography. For this, at the end of the document, put:
 ```latex
-\begin{thebibliography}
-\bibitem{gloub}
+\begin{thebibliography}{1}
+\bibitem{golub}
 Golub, G. H., \&  Van Loan, C. F. (2012). \textit{Matrix Computations} (Vol..). JHU Press.
 \end{thebibliography}
 ````
