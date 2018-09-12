@@ -42,11 +42,11 @@ end
 * `x = A\b` - Solve matrix system
 * `zeros(n,m)` - Creates an n by m matrix of zeros
 * `ones(n,m)` - Creates an n by m matrix of ones
+* `eye(n)` - Creates an n by n identity matrix
+* `linspace(a,b,n)` - Creates a row vector of n linear values between a and b
 * `det(A)` - Determinant
 * `eig(a)` - Eigenvalue decomposition
 * `svd(a)` - Singular value decomposition
-* `eye(n)` - Creates an n by n identity matrix
-* `linspace(a,b,n)` - Creates a row vector of n linear values between a and b
 * There are also specific matrix formats to use for sparse/structured matrix computations
 
 ## Functions
@@ -59,8 +59,8 @@ val = my_f(3/4*pi);
 
 Full functions can be created with the follow syntax:
 ```matlab
-function [out_1,out_1] = my_fun_name(in_1,in_2)
-  % [out_1,out_1] = my_fun_name(in_1,in_2)
+function [out_1,out_2] = my_fun_name(in_1,in_2)
+  % [out_1,out_2] = my_fun_name(in_1,in_2)
   % Description of function in comments makes it appear with 'help' command
   
   <function body>
