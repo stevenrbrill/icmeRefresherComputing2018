@@ -1,0 +1,51 @@
+\documentclass{report}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\newcommand{\pder}[2]{\frac{\partial {#1}}{\partial {#2}}}
+
+\begin{document}
+
+\chapter{Example Chapter}
+This is the first sentence in paragraph 1. This is the second sentence.
+This is the third sentence.
+
+This is the first sentence in paragraph 2.
+This refers to Eq. \ref{eqn:mylabelname} which comes from \cite{golub}.
+
+\begin{itemize}
+   \item Bullet 1
+   \item Bullet 2
+\end{itemize}
+
+\begin{enumerate}
+   \item Thing 1
+   \item Thing 2
+\end{enumerate}
+
+\section{Example Section}
+\begin{align} % using {align*} wll remove numbering
+   Ax &= b  \\
+   x_1 + x_2 &< 10 \label{eqn:mylabelname}
+\end{align}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=6cm]{icme.jpeg}
+    \caption{Put caption here}
+    \label{fig:myFig}
+\end{figure}
+
+\section{Math}
+\begin{align}
+	\pder{u}{t} + a\pder{u}{x} = 0
+\end{align}
+
+
+
+\begin{thebibliography}{1}
+\bibitem{golub}
+Golub, G. H., \&  Van Loan, C. F. (2012). \textit{Matrix Computations} (Vol..). JHU Press.
+\end{thebibliography}
+
+\end{document}
