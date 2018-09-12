@@ -3,7 +3,7 @@
 ## What is LaTeX?
 LaTeX is a markup style document preparation system designed for text and mathematical formulas. Unlike other typesetters, like Word, LaTeX uses a plain text format that must be compiled into a pdf for other format. It is widely used in academia, hence we are covering it herre.
 
-## How to write and compile LaTex?
+## How to write and compile LaTeX?
 Since LaTeX is written in plain text format, you can write LaTeX files using any of your favorite text editors, like Vim or Sublime or whatever. LaTeX files have the extension `.tex`. In order to compile tex file into pdfs or other formats, one must use a TeX distribution. The most popular of which are MikTeX (https://miktex.org/) and TeX Live (https://www.tug.org/texlive/). Both of these links have information about how to install them on your favorite OS. If you create a TeX file in a text editor and want to compile into a pdf in command line, both of these distributions have commands `pdflatex <file>.tex` which will build the file. Additionally, `Latexmk` has a similar command line interface (https://mg.readthedocs.io/latexmk.html). 
 
 While using the command line is a valid way to write LaTeX files, many people prefer to integrated environments to write, compile, and often view the pdfs all in one place. The most popular of these among my peers are:
@@ -26,12 +26,12 @@ While using the command line is a valid way to write LaTeX files, many people pr
     * No need to download packages
     
 ## Basics and Templates
-A minimalistic LaTex document must have a documentclass, and begin and end.
+A minimalistic LaTeX document must have a documentclass, and begin and end.
 ```latex
 \documentclass{article}
 \begin{document}
 Hello World! % Comment
-\end{document
+\end{document}
 ```
 Commands start with backslash, `\`, curly braces surround arguments, and `%` starts a comment.
 
@@ -60,7 +60,7 @@ You can make lists with `itemize` and numbered lists with `enumerate`
    \item Bullet 2
 \end{itemize}
 
-\beginitemize{enumerate}
+\begin{enumerate}
    \item Thing 1
    \item Thing 2
 \end{enumerate}
@@ -156,7 +156,7 @@ Golub, G. H., \&  Van Loan, C. F. (2012). \textit{Matrix Computations} (Vol..). 
 Then when you wish to cite this reference, use `\cite{golub}`. As you can see, you have to format each citation yourself, which can be a pain. However, it also gives you direct control over how the citation looks, instead of through a formatting file, which I often find easier. 
 
 ## Macros
-LaTeX macros are commands you define yourself. They can be very useful for improving productivity and readability in your doucments, because they save you from typing long commands over and over again. The syntax is:
+LaTeX macros are commands you define yourself. They can be very useful for improving productivity and readability in your documents, because they save you from typing long commands over and over again. The syntax is:
 ```latex
 \newcommand{name}[num]{definition}
 ```
