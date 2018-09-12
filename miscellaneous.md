@@ -14,7 +14,7 @@ Julia is a language that was designed from scratch for high performance and high
 ## Mendeley
 https://www.mendeley.com/
 
-Menedeley is a reference management tool. It allows you to document the papers you have downloaded, organize them, generate citations, and it will even suggest related papers that you might be interested in.  I find it much easier than trying to organize all the pdfs into different folder and to remmeber what papers I want to cite where.
+Menedeley is a reference management tool. It allows you to document the papers you have downloaded, organize them, generate citations, and it will even suggest related papers that you might be interested in.  I find it much easier than trying to organize all the pdfs into different folder and to remember what papers I want to cite where.
 
 ## Jupyter Notebooks
 http://jupyter.org/
