@@ -90,6 +90,8 @@ To connect to any of Stanford's clusters we will use a **secure shell** (SSH). T
   * Install XMing or MobaXterm and connect with the X11 option in the Windows X11 Client
   * Alternatively, Windows users can also uses the Linux subsystem for most Linux things. https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
 
+Here is a link to more information about connecting to Farmshare: https://srcc.stanford.edu/farmshare2/connecting
+
 For next class, you will be asked to connect to Farmshare from your own computer with X11 forwarding, so we can follow some Linux tutorials.
 
 ### Farmshare software
@@ -114,7 +116,7 @@ To access any of these programs, use `module load [name of module]` to load the 
 AFS stands for Andrew File System. It is an internal file system at Stanford that you can use to store files that is accessible from Farmshare and in the libraries on campus. For general file storing, I would use Box or Drive, but this is one way to pass files to and from Farmshare without using any outside software. It is accessible at https://afs.stanford.edu/.  
 
 ## Your Website
-Stanford gives everyone a domain for your own website. It is accessible at stanford.edu/~[your suid] . This website can be updated by putting html files into the WWW directory in you AFS. index.hmtl will serve as your homepage.
+Stanford gives everyone a domain for your own website. It is accessible at stanford.edu/~[your suid] . This website can be updated by putting html files into the WWW directory in you AFS. index.html will serve as your homepage.
 
 ## Miscellaneous Resources
 * Stanford library catalogue: http://library.stanford.edu/
@@ -130,3 +132,4 @@ Stanford gives everyone a domain for your own website. It is accessible at stanf
 * Stanford email lookup: https://stanfordwho.stanford.edu/SWApp/
 * Stanford course information: https://explorecourses.stanford.edu/
 * School of Engineering printing: https://soeithelp.stanford.edu/hc/en-us/articles/226558888-Add-CanonMFD-Secured-Unsecured-Print-Queue-for-Windows
+* Stanford library printing: http://library.stanford.edu/using/print-copy-scan
