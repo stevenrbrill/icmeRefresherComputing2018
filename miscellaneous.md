@@ -3,6 +3,7 @@ This is just a place where I wanted to plug a few useful tools and resources tha
 
 ## Markdown
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 Markdown is the language this document is written in. It is an easy way to write nice looking documents. It is not the got to language for writing papers or anything like that, but it is easy and quick to learn and it is useful for writing simple documents and typing notes.
 
 ## Julia
