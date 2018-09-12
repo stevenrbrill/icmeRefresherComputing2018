@@ -24,6 +24,7 @@ Now we will begin to go over the basic Linux commands and how to use them. We wi
 * `exit` - Exits the terminal
 * `clear` - Clears the terminal
 * `ssh <user>@<servername>` - Single shell sign in, logs onto that system, `-X` or `-Y` enable X11 forwarding for interactive windows
+* `./<executable` - Runs executable
 
 ### Directory and Filename shortcuts
 * `.` - Current directory
@@ -73,7 +74,7 @@ Now we will begin to go over the basic Linux commands and how to use them. We wi
 
 
 ## Paths in Linux
-In Linux, when you are doing a command with a file, you must give a path to the file. The can be done using an **absolute path** or a **relative path**. As the names imply, absolute paths are paths that always get to the correct location, while relative paths are paths to the location from wherever you currently are. Whenever you use `pwd`p that gives the absolute path to the current directory. Absolute paths start with a `/`. Relative paths, start in your current location. If the first part of the path is `.` then it is a relative path. By default, if you start typing a path from your current directory, it will be a relative path. For most basic command line uses, these paths are equivalent. However, for more advanced uses, such as installing software, absolute paths must be used.
+In Linux, when you are doing a command with a file, you must give a path to the file. The can be done using an **absolute path** or a **relative path**. As the names imply, absolute paths are paths that always get to the correct location, while relative paths are paths to the location from wherever you currently are. Whenever you use `pwd` that gives the absolute path to the current directory. Absolute paths start with a `/`. Relative paths, start in your current location. If the first part of the path is `.` then it is a relative path. By default, if you start typing a path from your current directory, it will be a relative path. For most basic command line uses, these paths are equivalent. However, for more advanced uses, such as installing software, absolute paths must be used.
 
 ## Bashrc
 A `.bashrc` is a shell script that runs everytime you start a new bash session, like when you open a new terminal. This file can be found at `~/.bashrc` and you can edit it if you want certain commands to run at startup. This allows you to change different settings for your terminals, load certain modules on startup, and create aliases. With many Linux systems, there is a default Bashrc that comes with the OS. You can also look online to find examples of various settings that you may want. I personally, don't change too much with the different settings that can be changed in the Bashrc. When I have been working on research codes that require specific modules, I often put the `module load` statements in the Bashrc, so I don't have to do it manually every time. The most common and useful part of the Bashrc is adding alias. An **alias** is a command name that you set in place of typing out a full command. You can think of it as a variable that represents a longer command. This can save time if you have long commands, or you can use it to essentially change the default behavior of a command. For example, I use the aliases:
