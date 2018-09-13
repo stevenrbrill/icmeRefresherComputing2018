@@ -8,13 +8,13 @@ The areas we will cover are:
 
 [Computing at Stanford](computingAtStanford.md)
 
-[Linux](linux.md)
-
-[Git](git.md)
-
 [LaTeX](latex.md)
 
 [MATLAB](matlab.md)
+
+[Linux](linux.md)
+
+[Git](git.md)
 
 [Miscellaneous](miscellaneous.md)
 
