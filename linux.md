@@ -25,6 +25,7 @@ Now we will begin to go over the basic Linux commands and how to use them. We wi
 * `clear` - Clears the terminal
 * `ssh <user>@<servername>` - Single shell sign in, logs onto that system, `-X` or `-Y` enable X11 forwarding for interactive windows
 * `./<executable` - Runs executable
+* ctrl + c - Cancels processes that are running
 
 ### Directory and Filename shortcuts
 * `.` - Current directory
