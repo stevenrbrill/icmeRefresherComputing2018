@@ -86,7 +86,7 @@ plot(x,z,'r--')
 legend('y','z')
 xlabel('x')
 ylabel('Functions')
-title(`Example Figure`)
+title('Example Figure')
 ```
 * First, we create arrays of data to plot
 * `figure` creates a new figure to plot on
