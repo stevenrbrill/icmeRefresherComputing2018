@@ -133,3 +133,5 @@ Stanford gives everyone a domain for your own website. It is accessible at stanf
 * Stanford course information: https://explorecourses.stanford.edu/
 * School of Engineering printing: https://soeithelp.stanford.edu/hc/en-us/articles/226558888-Add-CanonMFD-Secured-Unsecured-Print-Queue-for-Windows
 * Stanford library printing: http://library.stanford.edu/using/print-copy-scan
+* IT Help: https://uit.stanford.edu/service/help
+* Stanford Tech Center: http://web.stanford.edu/group/bookstore/service.html
