@@ -72,6 +72,7 @@ Now we will begin to go over the basic Linux commands and how to use them. We wi
 * `tar -xzvf <tar file>` - Unzip a tar file
 * `chmod <arguments> <file>` - Change the permission of read, write, and execute access on a file
 * `top` - Shows processes that are running
+* `lscpu` - Shows information about the computer, like number of CPUs and types of processors
 
 
 ## Paths in Linux
