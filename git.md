@@ -27,6 +27,7 @@ While git is a method of version control and backing up files, they still need t
 * `git clone <url>` - Create a copy of a remote repository on your machine
 * `git init` - Create a new local repository
 * `git add <file>` - Add file to staging to begin tracking
+* `git add --patch <file>` - Interactively go through file and choose changes to stage
 * `git reset <file>` - Remove a file from staging, `--hard <commit>` will reset the file to its state at the given commit. 
 * `git rm <file>` - Stop tracking the file
 * `git commit <file>` - Save changes to local repository, `-a` will commit all changes, `-m "<message>"` will add the commit message
