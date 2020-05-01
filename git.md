@@ -45,6 +45,8 @@ While git is a method of version control and backing up files, they still need t
 * `git mergetool` - Tool to help resolve merge conflicts
 * `git checkout <commit number>` - Revert code back to the state it was at that commit number, this is a temorary change
 * `.gitignore` - File that tells git to ignore certain files
+* `git rebase master` - Rebase branch with changse from master
+* `git push -u origin <branch name>` - Push a local branch to the remote repository
 
 ## Basic Git Workflow
 The basic Git workflow is as follows:
