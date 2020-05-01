@@ -47,6 +47,7 @@ While git is a method of version control and backing up files, they still need t
 * `.gitignore` - File that tells git to ignore certain files
 * `git rebase master` - Rebase branch with changse from master
 * `git push -u origin <branch name>` - Push a local branch to the remote repository
+* `git rebase -i HEAD~<number of commits>` - Interactively choose how to rebase a number of commits. Used to squash multiple commits into one
 
 ## Basic Git Workflow
 The basic Git workflow is as follows:
